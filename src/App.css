@@ -1,38 +1,104 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d5d8dc;
+}
+
+/* inputs form container */
+.form-container {
+  margin: 30px;
+  margin-left: 50px;
+  padding-bottom: 50px;
+}
+
+/* display user inputs */
+
+.personal-details-container {
+  margin: 30px;
+  margin-left: 50px;
+  padding-bottom: 50px;
+}
+
+/* App headline */
+
+.app-header {
   text-align: center;
+  color: #212f3c;
+  font-size: 50px;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* inputs label */
+
+.input-label {
+  margin-left: 15px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  color: #282c34;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* user inputs details */
+
+.p-details {
+  margin-left: 15px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  color: #282c34;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
+}
+/* Section header */
+.section-header {
+  color: #282c34;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* buttons */
+.save-form-btn {
+  background-color: #008cba; /* Green */
+  border: none;
   color: white;
+  margin-left: 25px;
+  padding: 10px 24px;
+  text-align: center;
+  /* display: inline-block; */
+  font-size: 13px;
 }
 
-.App-link {
-  color: #61dafb;
+.edit-form-btn {
+  background-color: #008cba; /* Green */
+  border: none;
+  color: white;
+  margin-left: 25px;
+  padding: 10px 24px;
+  text-align: center;
+  /* display: inline-block; */
+  font-size: 13px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* user inputs  */
+input {
+  display: block;
+  outline: none;
+  border: 1px solid grey;
+  padding: 8px 14px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  margin-left: 25px;
+  margin-top: 5px;
+  font-size: 16px;
+  width: 33%;
+}
+
+.input-date {
+  width: 7%;
+}
+
+input:focus {
+  background-color: lightblue;
+  border: 1px solid #555;
 }
